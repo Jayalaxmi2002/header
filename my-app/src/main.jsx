@@ -1,10 +1,24 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import React from "react";
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+const Main = () => {
+  return (
+    <main className="main-container">
+      <h1>Search across '4.7 Crore+' Businesses</h1>
+      <div className="search-bar">
+        <input
+          type="text"
+          placeholder="Betkuli, Karwar"
+          className="location-input"
+        />
+        <input
+          type="text"
+          placeholder="Search in Karwar"
+          className="search-input"
+        />
+        <button className="search-btn">🔍</button>
+      </div>
+    </main>
+  );
+};
+
+export default Main;
