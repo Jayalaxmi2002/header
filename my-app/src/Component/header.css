@@ -148,6 +148,6 @@ cursor: pointer;
 color: white;
 }
 .border{
-  display: flexbox;
+  display: flex;
   padding-left: 900px;
 }

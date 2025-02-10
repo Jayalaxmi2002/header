@@ -7,6 +7,7 @@ import { LuBellRing } from "react-icons/lu";
 import { FaChartLine } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { IoMdMegaphone} from "react-icons/io";
+import { TbArrowBarDown } from "react-icons/tb";
 import "./Header.css";
 
 const Header = () => {
@@ -21,7 +22,7 @@ const Header = () => {
       {/* Navigation */}
       <nav className="nav-links">
         <div className="nav-item">
-        <div style={{ color: "blue" }}> <MdGTranslate className="icon" /> EN  <LiaAngleDownSolid />
+        <div style={{ color: "blue" }}> <MdGTranslate  /> EN  <LiaAngleDownSolid />
         </div>
         </div> 
         <span className="nav-item">We are Hiring</span>
@@ -60,7 +61,7 @@ const Header = () => {
         </div>
       </div>
       <div className="border">
-                <button className="border1">Download App</button>
+                <button className="border1">Download App</button><button className="box"><TbArrowBarDown /></button>
             </div>
 
     </div>
